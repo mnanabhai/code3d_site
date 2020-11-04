@@ -1,18 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfdb0b60-47bb-4bb7-ada5-6e214f541090" name="Default Changelist" comment="" />
+    <list default="true" id="cfdb0b60-47bb-4bb7-ada5-6e214f541090" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/cube-triangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/cubegrid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/github-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/pdf-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/spiral-pyramid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/templatemo_545_finance_business.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code3d_website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/templatemo-finance-business.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/code3d.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/client-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/more-info.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/service_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/service_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/service_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/single_service_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/single_service_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/single_service_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/single_service_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slide_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slide_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slide_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model3d.html" beforeDir="false" afterPath="$PROJECT_DIR$/model3d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print3d.html" beforeDir="false" afterPath="$PROJECT_DIR$/print3d.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jFrAxwe1iB4sn9FK9Oqrtfq5LW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -35,21 +73,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603410540407</updated>
-      <workItem from="1603410541443" duration="19282000" />
+      <workItem from="1603410541443" duration="26741000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1604486455478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604486455478" />
+    <state x="583" y="310" key="Github.ShareDialog" timestamp="1604444252330">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="583" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1604444252330" />
+    <state x="429" y="117" key="Github.UntrackedFilesDialog" timestamp="1604444269084">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="429" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604444269084" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1603414494278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603414494278" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603998535714">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604529337265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603998535714" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604529337265" />
   </component>
 </project>
