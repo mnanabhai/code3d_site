@@ -96,37 +96,29 @@
           <article id='tabs-1'>
             <h4>Introduction</h4>
             <p>
-              The use of graphics libraries to engage and motivate students in
-              learning introductory programming has consistently shown to be
-              useful. In the early days of CS education, Logo Turtle, which was
-
-              used in over 250 classrooms, was found to have dramatic improvements in student engagement, confidence, problem-solving abilities, and motivation, among others. Since then, a variety of
-
-              newer tools have been found effective.
+              3D printing is an exciting and innovative technology, and Educators 
+              are becoming more aware of its potential in STEAM education.
             </p>
             <br>
             <p>
-              For example, the Processing Project was created with the aim to facilitate
-
-              an exploratory and design-oriented approach to teaching programming. The Processing programming language is based on Java and
-
-              provides a flexible set of code elements to create visual designs in
-              both two and three dimensions. Processing-based CS education programs report
-              great success in improving student interest and retention through
-              this approach, which they studied across two universities over six
-              years.
+              The use of 3D printings in introductory programming to engage 
+              and motivate students is a fairly new idea and has mainly been used for 
+              blind and visually impaired students.
             </p>
             <br>
-            <p>A similar approach has also been extended to physical models. Processing-based libraries for creating designs to be forged by a laser cutter, for example, have also been successful, finding that almost all participants in workshops using them are interested in programming again in the future.
-            </p><br><p>
-
-            The present project can be seen as a further conceptual expansion
-            of this approach, in that it provides a library
-            for modelling designs for digital fabrication, but for 3D digital
-            fabrication machines, i.e. 3D printers.
-
-          </p>
             <p>
+              By bridging programming and 3D printing, students have the possibility 
+              to explore emerging technologies like 3D printing, 
+              which is a very promising and exciting technology for 
+              both industry and education.
+            </p> <br><p>
+              However, due to the COVID-19 pandemic, using a 3D
+              printer was substituted using a 3D printing simulation
+              </p> <p>
+              It was argued that this is still has potential to be a
+              viable way to get students excited about programming, as it gives them
+              the thought that their skills and knowledge can produce tangible products,
+              as well as introduce them to the innovative world of 3D printing
 
             </p>
           </article>
@@ -135,32 +127,62 @@
             <p>
 
               This project focuses on the design component of the 3D printing workflow. <br>
-              The core Model3D application provides a typical IDE with a text editor and the ability to run
-              the implemented code. The viewer renders the code on-screen as a
-              3D visualisation of the model. This interface is shown below.<br>
-            </p><p>Model3D code is written in JavaScript and makes use of the OpenJsCad library for graphics.</p>
 
-            <img src="./assets/images/example_task_spheres.PNG" style="margin:50px 50px">
+              A 3D printer simulator was developed that allows users to interact with and view the virtual
+              printing of their own artefact.
+              
+              The core Print3D application provides a simulation window and controls to control the simulation. 
+            </p>
+            
+            <p>A 3D model is received in the form of a STL (Standard Tessellation Language) file, 
+              a format native to CAD (Computer Aided Design) software. However, a 3D printer
+              needs an algorithm to move it’s tip and extrude filament
+              around a 3D space. Gcode is the language that specifies
+              these movements. An STL file can be ‘sliced’/converted
+              into a Gcode file via Slic3r, a slicing software. The Gcode is visualized with Three.js, a JavaScript
+              library used to create animated 3D computer graphics in
+              a web browser. Since a Gcode file is essentially a list of
+              3D points that a 3D printer follows, a program was developed in JavaScript, using Three.js, that controls the drawing of lines between these
+              points. This interface is shown below.<br> </p>
+
+
+            <img src="./assets/images/PRINT.png" style="margin:50px 50px">
 
 
           </article>
           <article id='tabs-3'>
             <h4>Results</h4>
-            <p>The results collected from our study were found to support our
-              hypotheses, which says that educators will find Model3D to be
-              user-friendly for novices, and useful for increasing student motivation in learning introductory programming. This was supported by
-              the quantitative surveys, which found significantly above average
-              positive attitudes both in terms of usability and utility towards motivation. The qualitative data also supports the hypotheses, where
-              participants express concerns about particular aspects, but on the
-              whole find the system user-friendly, interesting, and useful for
-              teaching.</p><br>
+            <p>The results indicate that educators consideration towards the 3D printing simulation as a motivating tool
+              to learning introductory programming was high from our motivation survey, with an overall score of 4.458
+              (max of 5). The results also indicate the educators level of agreement to the system being usable was high from our
+              usability survey, with an overall score of 5.838 (max of 7). 
+</p><br>
             <p>
               The distribution of scores can be seen below, for usability:
             </p>
-            <img src="./assets/images/usability-fixed.png" style="margin:50px 50px; width: 75%">
+            <img src="./assets/images/usab2sub.png" style="margin:50px 50px; width: 75%">
             <p>And motivation:</p>
-            <img src="./assets/images/motiv-fixed.png" style="margin:50px 50px; width: 75%">
+            <img src="./assets/images/moti2sub.png" style="margin:50px 50px; width: 75%">
 
+            <p>Below are some quotes from the qualitative component (all names have been changed):</p>
+            <div class="testimonial-item">
+              <div class="inner-content">
+                <h4>Jeff</h4>
+                <span>Teaching assistant</span>
+                <p>"I think this tool would be perfect for university students who want to get into 3D printing. 
+                  Python support would make it easier to get into at earlier stages of university.
+                  "</p>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <div class="inner-content">
+                <h4>Umar</h4>
+                <span>Teaching assistant</span>
+                <p>"Overall, I really enjoyed using the system and felt motivated to experiment with new ideas for 3D Prints. 
+                  The immediate feedback loop is something I really appreciated and I feel like this really fits in with the
+                   quick iteration philosophy of 3D printing."</p>
+              </div>
+            </div>
           </article>
           <article id='tabs-4'>
             <h4>Documents</h4>
